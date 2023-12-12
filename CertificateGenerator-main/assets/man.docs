@@ -1,0 +1,20 @@
+-f and -t are flags indicating whether the operation involves a file or text.
+--name, --body, and --auth are fields for the name, body, and authority.
+
+ex:- python main.py --name -f [file_location] \
+                    --body -t "some body" \
+                    --auth -t "auth1 auth2"
+
+File for name should be formatted in specified way:
+
+--name file format:-
+
+each line contains new names; 
+and no one line contains more than one name;
+and empty line is considers as empty name;
+
+--auth file format:-
+each line contains new names;
+and each line contains exactly two name seperated by white space;
+and empty line is considers as empty name; 
+
